@@ -1,5 +1,5 @@
 {
-  "name": "4tango-frontend",
+  "name": "4tango.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -27,5 +27,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1"
   }
 }
