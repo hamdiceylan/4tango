@@ -5,13 +5,9 @@ cache:
   directories:
     - node_modules
 script:
+  - npm install
   - npm test
-  - npm run build
-deploy:
-  provider: surge
-  skip_cleanup: true
-  domain: <my_name_here>.surge.sh
-  project: ./build/
+  - npm run build/
 on:
   branch: master
 
